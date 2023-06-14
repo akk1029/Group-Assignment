@@ -1,0 +1,62 @@
+/* Perfecting navigation bar */
+
+nav.navbar{
+    margin:20px;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0{
+    text-align: center;
+    margin: auto;
+}
+
+li.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a{
+    color: white;
+}
+
+a.nav-link.active{
+    background-color: rgb(149, 63, 63);
+    border-radius: 15px;
+}
+
+a.nav-link.active:hover{
+    background-color: rgb(33, 30, 30);
+    color: white;
+}
+
+a.nav-link{
+    color: whitesmoke;
+}
+
+a.nav-link:hover{
+    text-decoration: underline;
+    text-underline-position: below;
+    color: whitesmoke;
+}
+
+img#search{
+    filter: invert(100%);
+}
+
+/* dropdown menu */
+
+ul.dropdown-menu{
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+
+a.dropdown-item{
+    color: white;
+}
+
+
+/* body */
+
+body{
+    background-color: black;
+    color: whtie;
+}
