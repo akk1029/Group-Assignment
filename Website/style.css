@@ -1,12 +1,19 @@
 /* Perfecting navigation bar */
 
+#navbar{
+    text-align: center;
+}
+
 nav.navbar{
-    margin:20px;
+   margin-top: 5px;
 }
 
 ul.navbar-nav.me-auto.mb-2.mb-lg-0{
     text-align: center;
+    width: fit-content;
     margin: auto;
+    background-color: black;
+    border-radius: 25px;
 }
 
 li.nav-item{
@@ -31,12 +38,15 @@ a.nav-link.active:hover{
 
 a.nav-link{
     color: whitesmoke;
+    border-radius: 15px;
 }
 
 a.nav-link:hover{
     text-decoration: underline;
     text-underline-position: below;
     color: whitesmoke;
+    background-color: rgb(149,63,63);
+    
 }
 
 
@@ -72,6 +82,7 @@ input[type=text] {
 /* body */
 
 body{
-    background-color: black;
+    background-color: grey;
     color: whtie;
 }
+
