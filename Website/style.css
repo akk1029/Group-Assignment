@@ -1,8 +1,5 @@
 /* Perfecting navigation bar */
 
-#navbar{
-    text-align: center;
-}
 
 nav.navbar{
    margin-top: 5px;
@@ -17,9 +14,13 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0{
 }
 
 li.nav-item{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 10px;
+}
+
+li.navbar {
+    margin-left: 40px;
 }
 
 a{
