@@ -9,8 +9,11 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0{
     text-align: center;
     width: fit-content;
     margin: auto;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(25, 140, 250);
     border-radius: 25px;
+    
+    
 }
 
 li.nav-item{
@@ -30,17 +33,17 @@ a{
 }
 
 a.nav-link.active{
-    background-color: rgb(35, 115, 196);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
 }
 
 a.nav-link.active:hover{
-    background-color: rgb(33, 30, 30);
+    background-color: rgb(25,140,250);
     color: white;
 }
 
 a.nav-link{
-    color: whitesmoke;
+    color: rgb(0,0,0);
     border-radius: 15px;
 }
 
@@ -48,7 +51,8 @@ a.nav-link:hover{
     text-decoration: underline;
     text-underline-position: below;
     color: whitesmoke;
-    background-color: rgb(35, 115, 196);   
+    background-color: rgb(25, 140, 250);  
+
 }
 
 div.row{
@@ -73,12 +77,12 @@ a.dropdown-item{
 input[type=text] {
     width: 70%;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid rgb(25,140,250);
     border-radius: 20px;
     font-size: 16px;
-    background-color: white;
+    background-color:rgb(255,255,255);
     background-image: url('images/search.png');
-    filter: invert(100%);
+    
     background-size: 20px;
     background-position: 10px center; 
     background-repeat: no-repeat;
@@ -89,7 +93,14 @@ input[type=text] {
 /* body */
 
 body{
-    background-color: grey;
+    background-color:rgb(59,56,56);
     color: whtie;
 }
 
+/* Intro */
+p.intro{
+    color: #fff;
+    font-size:larger;
+    text-align: center;
+
+}
