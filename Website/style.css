@@ -28,7 +28,7 @@ a{
 }
 
 a.nav-link.active{
-    background-color: rgb(149, 63, 63);
+    background-color: rgb(35, 115, 196);
     border-radius: 15px;
 }
 
@@ -46,7 +46,7 @@ a.nav-link:hover{
     text-decoration: underline;
     text-underline-position: below;
     color: whitesmoke;
-    background-color: rgb(149,63,63);   
+    background-color: rgb(35, 115, 196);   
 }
 
 div.row{
