@@ -21,6 +21,8 @@ li.nav-item{
 
 li.navbar {
     margin-left: 40px;
+    padding: 0%;
+    margin-right: auto;
 }
 
 a{
