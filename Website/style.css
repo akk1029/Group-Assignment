@@ -97,24 +97,9 @@ body{
     color: whtie;
 }
 
-<<<<<<< Updated upstream
 /* Intro */
 p.intro{
     color: #fff;
     font-size:larger;
     text-align: center;
 
-}
-=======
-/* best sellers */
-
-div.card{
-    margin: 5px;
-    border: 1px solid black;
-    border-radius: 10px !important;
-}
-
-div.card-body{
-    height: fit-content;
-}
->>>>>>> Stashed changes
