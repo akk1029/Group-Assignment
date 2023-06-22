@@ -1,0 +1,22 @@
+/* Intro */
+p.intro{
+    color: #fff;
+    font-size:larger;
+    text-align: center;
+}
+
+/* best sellers */
+
+div.card{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px !important;
+}
+div.carousel{
+    width: 50%;
+    position: absolute;
+}
+
+div.carousel-item{
+   position: absolute; 
+}
