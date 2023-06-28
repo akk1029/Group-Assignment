@@ -1,0 +1,23 @@
+/* Intro */
+p.intro{
+    font-size:larger;
+    text-align: center;
+}
+
+/* best sellers */
+
+div.card{
+    margin: 5px;
+    border-radius: 10px !important;
+}
+
+/* new product */
+
+div.carousel{
+    width: 50%;
+    position: absolute;
+}
+
+div.carousel-item{
+   position: absolute; 
+}
