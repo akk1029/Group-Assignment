@@ -94,3 +94,16 @@ input[type=text] {
 
 /* body */
 
+body{
+    background-color:rgb(59,56,56);
+    color: whtie;
+}
+
+/* Intro */
+p.intro{
+    color: #fff;
+    font-size:larger;
+    text-align: center;
+    bottom: 10px;
+
+}
