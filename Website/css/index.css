@@ -15,9 +15,9 @@ div.card{
 
 div.carousel{
     width: 50%;
-    position: absolute;
 }
 
-div.carousel-item{
-   position: absolute; 
+div.carousel.slide{
+    margin-left: auto;
+    margin-right: auto;
 }

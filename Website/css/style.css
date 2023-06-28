@@ -84,9 +84,7 @@ input[type=text] {
     border: 2px solid rgb(25,140,250);
     border-radius: 20px;
     font-size: 16px;
-    background-color:rgb(255,255,255);
     background-image: url('images/search.png');
-    
     background-size: 20px;
     background-position: 10px center; 
     background-repeat: no-repeat;
