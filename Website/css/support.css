@@ -1,0 +1,40 @@
+.heading-1{
+    font-size: 400%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.byte-colour{
+    color: rgb(0, 0, 170);
+    font-weight: bolder;
+}
+
+.bay-colour{
+    color: rgb(0, 153, 255);
+    font-weight: bolder;
+}
+
+.mac2_pic{
+    width: 130% !important;
+    padding-right: 2%;
+}
+
+img{
+    width: 70%;
+}
+
+.ByteBay_Logo{
+    width: 100px !important;
+}
+
+.watch-text{
+    padding-left: 10%;
+}
+
+.mac2-text{
+    padding-left: 30%;
+}
+
+.col{
+    margin-top: 2%;
+}

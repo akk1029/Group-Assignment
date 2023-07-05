@@ -1,23 +1,27 @@
 /* Intro */
-p.intro{
-    font-size:larger;
+
+.intro{
+    font-size:xx-large;
     text-align: center;
+    padding: 2cm;
+    background-color: rgb(153, 153, 153) !important;
 }
 
 /* best sellers */
 
 div.card{
-    margin: 5px;
-    border-radius: 10px !important;
+    margin: 7px;
+    border-radius: 12px !important;
 }
 
 /* new product */
 
-div.carousel{
-    width: 50%;
+.newest {
+    display: flex;  
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-div.carousel.slide{
-    margin-left: auto;
-    margin-right: auto;
+.card-img-top{
+    padding: 15px;
 }
