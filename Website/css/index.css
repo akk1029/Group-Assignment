@@ -1,7 +1,7 @@
 /* Intro */
 
-.intro{
-    font-size:xx-large;
+.intro {
+    font-size: xx-large;
     text-align: center;
     padding: 2cm;
     background-color: rgb(153, 153, 153) !important;
@@ -9,7 +9,7 @@
 
 /* best sellers */
 
-div.card{
+div.card {
     margin: 7px;
     border-radius: 12px !important;
 }
@@ -17,11 +17,15 @@ div.card{
 /* new product */
 
 .newest {
-    display: flex;  
+    display: flex;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.card-img-top{
+.card-img-top {
     padding: 15px;
+}
+
+h3 {
+    padding-left: 20px;
 }
