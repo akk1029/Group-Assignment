@@ -5,18 +5,18 @@
 }
 
 .byte-colour {
-    color: rgb(0, 0, 170);
+    color: rgb(8, 6, 136);
     font-weight: bolder;
 }
 
 .bay-colour {
-    color: rgb(0, 153, 255);
+    color: rgb(25, 140, 250);
     font-weight: bolder;
 }
 
-.mac2_pic {
-    width: 130% !important;
-    padding-right: 2%;
+#mac2 {
+    width: 100% !important;
+    padding-right: 0%;
 }
 
 img {
@@ -35,6 +35,26 @@ img {
     padding-left: 30%;
 }
 
+.card-body {
+    text-align: justify;
+}
+
+.toll-free {
+    margin-bottom: 0%;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.btn-primary {
+    text-align: center;
+}
+
 .col {
-    margin-top: 2%;
+    padding-bottom: 10px;
 }
