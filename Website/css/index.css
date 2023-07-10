@@ -17,13 +17,13 @@ div.card {
 /* new product */
 
 .newest {
-    display: flex;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .card-img-top {
     padding: 15px;
+    height: auto;
 }
 
 h3 {
