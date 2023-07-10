@@ -1,0 +1,89 @@
+/* Perfecting navigation bar */
+
+
+nav.navbar {
+    margin-top: 5px;
+}
+
+li.nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+li.navbar {
+    margin-left: 40px;
+    padding: 0%;
+    margin-right: auto;
+}
+
+a {
+    color: white;
+}
+
+a.nav-link.active {
+    border-radius: 15px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(25, 140, 250);
+    text-underline-offset: 5px;
+}
+
+a.nav-link.active:hover {
+    background-color: rgb(25, 140, 250);
+    color: white;
+}
+
+a.nav-link {
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+a.nav-link:hover {
+    text-underline-position: below;
+    color: whitesmoke;
+    background-color: rgb(25, 140, 250);
+
+}
+
+div.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* dropdown menu */
+
+ul.dropdown-menu {
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+
+a.dropdown-item {
+    color: white;
+}
+
+/* search in nav bar */
+
+input[type=text] {
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid rgb(25, 140, 250);
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('images/search.png');
+    background-size: 20px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding: 5px 20px 5px 60px;
+}
+
+
+/* body */
+
+body {
+    background-color: rgb(208, 208, 208);
+    color: black;
+}
