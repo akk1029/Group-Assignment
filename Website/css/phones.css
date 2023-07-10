@@ -3,6 +3,10 @@
 .card {
     margin-left: auto;
     margin-right: auto;
+    bottom: 5px;
+    border-radius: 15px;
+
+    width: 100%;
 }
 
 .products {
@@ -18,7 +22,7 @@ button {
     background-color: rgb(25, 140, 250);
     font-size: 17px;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 7px;
     margin-left: 15px;
     margin-right: 15px;
 
@@ -29,4 +33,143 @@ button {
 
 button.span {
     size: auto;
+}
+
+
+
+.but-1 {
+    background-color: #343b43;
+    font-size: 13px;
+    color: #343b43;
+    border-radius: 3000px;
+}
+
+.but-2 {
+    background-color: #a9bacc;
+    font-size: 13px;
+    color: #a9bacc;
+    border-radius: 3000px;
+    border-color: black;
+}
+
+.but-3 {
+    background-color: #fb1230;
+    font-size: 13px;
+    color: #fb1230;
+    border-radius: 3000px;
+}
+
+.but-4 {
+    background-color: #e5ddea;
+    font-size: 13px;
+    color: #e5ddea;
+    border-radius: 3000px;
+
+}
+
+.but-5 {
+    background-color: #4b4845;
+    font-size: 13px;
+    color: #4b4845;
+    border-radius: 3000px;
+}
+
+.but-6 {
+    background-color: #e2e4e1;
+    font-size: 13px;
+    color: #e2e4e1;
+    border-radius: 3000px;
+}
+
+.but-7 {
+    background-color: #d4c9b1;
+    font-size: 13px;
+    color: #d4c9b1;
+    border-radius: 3000px;
+}
+
+.but-8 {
+    background-color: Purple;
+    font-size: 13px;
+    color: Purple;
+    border-radius: 3000px;
+}
+
+.but-9 {
+    background-color: darkgreen;
+    font-size: 13px;
+    color: darkgreen;
+    border-radius: 3000px;
+}
+
+.but-10 {
+    background-color: darkgrey;
+    font-size: 13px;
+    color: darkgrey;
+    border-radius: 3000px;
+}
+
+.but-11 {
+    background-color: black;
+    font-size: 13px;
+    color: black;
+    border-radius: 3000px;
+}
+
+.but-12 {
+    background-color: lavender;
+    font-size: 13px;
+    color: lavender;
+    border-radius: 3000px;
+}
+
+.but-13 {
+    background-color: lightcoral;
+    font-size: 13px;
+    color: lightcoral;
+    border-radius: 3000px;
+}
+
+.but-14 {
+    background-color: white;
+    font-size: 13px;
+    color: white;
+    border-radius: 3000px;
+}
+
+.but-15 {
+    background-color: #215E7C;
+    font-size: 13px;
+    color: #215E7C;
+    border-radius: 3000px;
+}
+
+.but-16 {
+    background-color: #364935;
+    font-size: 13px;
+    color: #364935;
+    border-radius: 3000px;
+}
+
+.but-17 {
+    background-color: lavender;
+    font-size: 13px;
+    color: lavender;
+    border-radius: 3000px;
+
+}
+
+.but-18 {
+    background-color: navy;
+    font-size: 13px;
+    color: navy;
+    border-radius: 3000px;
+
+}
+
+
+
+
+p.card-text {
+    text-align: left;
 }
