@@ -173,3 +173,7 @@ button.span {
 p.card-text {
     text-align: left;
 }
+
+p.card-text price {
+    text-align: center;
+}

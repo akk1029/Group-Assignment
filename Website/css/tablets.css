@@ -21,6 +21,7 @@ div.card {
 .card-text.price {
     font-size: larger;
     font-weight: bolder;
+    text-align: center;
 }
 
 .row {
