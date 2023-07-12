@@ -14,10 +14,9 @@
     font-weight: bolder;
 }
 
-div.card,
-a.card {
+.card {
     border-radius: 12px !important;
-    margin: 15px;
+    margin: 10px;
 }
 
 .card-img-top {
@@ -28,12 +27,18 @@ a.card {
     margin-right: auto;
 }
 
-.card-group {
-    margin-left: 5cm;
-    margin-right: 5cm;
-}
-
 .card-body {
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-title {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 575px) {
+    .card {
+        margin: 10px auto;
+    }
 }
