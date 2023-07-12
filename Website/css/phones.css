@@ -177,3 +177,11 @@ p.card-text {
 p.card-text price {
     text-align: center;
 }
+
+p.title {
+    color: rgb(8, 6, 136);
+}
+
+span.title {
+    color: rgb(25, 140, 250);
+}
