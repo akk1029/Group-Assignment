@@ -20,12 +20,12 @@
     padding-top: 25px !important;
 }
 
-img {
+.supimg>img {
     width: 70%;
 }
 
-.ByteBay_Logo {
-    width: 120px !important;
+.supimg {
+    padding-bottom: 0px;
 }
 
 .watch-text {
