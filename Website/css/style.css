@@ -53,10 +53,14 @@ div.row {
 ul.dropdown-menu {
     background-color: rgb(50, 50, 50);
     border-radius: 15px;
+
 }
 
 a.dropdown-item {
     color: white;
+    padding: 6px 20px;
+
+
 }
 
 .dropdown-divider {
