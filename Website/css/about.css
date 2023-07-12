@@ -1,5 +1,46 @@
 .header {
     text-align: center;
     color: rgb(8, 6, 136);
-    font-family: "Arial Black"
+    font-family: "Arial Black";
+}
+
+
+.card-title {
+    color: rgb(25, 140, 250);
+    font-family: "Arial Black";
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.card-text {
+    text-align: justify;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 30px;
+    padding: 0 10px;
+}
+
+.card-body {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.row {
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.col {
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px 0
 }
