@@ -1,0 +1,39 @@
+.heading-2 {
+    font-size: 300%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.byte-colour {
+    color: rgb(8, 6, 136);
+    font-weight: bolder;
+}
+
+.bay-colour {
+    color: rgb(25, 140, 250);
+    font-weight: bolder;
+}
+
+div.card,
+a.card {
+    border-radius: 12px !important;
+    margin: 15px;
+}
+
+.card-img-top {
+    padding: 15px;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-group {
+    margin-left: 5cm;
+    margin-right: 5cm;
+}
+
+.card-body {
+    margin-left: auto;
+    margin-right: auto;
+}
