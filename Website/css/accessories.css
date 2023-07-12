@@ -1,0 +1,36 @@
+.card {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+}
+
+.products {
+    margin-top: 30px;
+}
+
+.card-body>img {
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.card-text.price {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.right>.card-body>.card-title {
+    padding: 15px;
+}
+
+#visionpro-accessories {
+    margin-top: 59px;
+    margin-bottom: 58px;
+}
