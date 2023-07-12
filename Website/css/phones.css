@@ -5,8 +5,10 @@
     margin-right: auto;
     bottom: 5px;
     border-radius: 15px;
+}
 
-    width: 100%;
+.right {
+    padding: 20px;
 }
 
 .products {
