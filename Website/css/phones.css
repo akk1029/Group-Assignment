@@ -1,5 +1,40 @@
 /*body*/
 
+div.card {
+    margin: 10px;
+    border-radius: 12px !important;
+}
+
+.card-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+}
+
+.products {
+    margin-top: 30px;
+}
+
+.card-body>img {
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.card-text.price {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
 .card {
     margin-left: auto;
     margin-right: auto;
