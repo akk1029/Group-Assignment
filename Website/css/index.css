@@ -4,6 +4,8 @@
     font-size: xx-large;
     text-align: center;
     padding: 2cm;
+    display: block;
+
 }
 
 /* best sellers */
@@ -31,4 +33,7 @@ h3 {
 
 .card {
     font-size: 20px !important;
+    position: relative;
+    display: flex;
+
 }
