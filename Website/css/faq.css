@@ -17,6 +17,7 @@
 .card {
     border-radius: 12px !important;
     margin: 10px;
+    border: 4px solid rgb(25, 140, 250);
 }
 
 .card-img-top {
@@ -35,10 +36,39 @@
 .card-title {
     width: fit-content;
     margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+
+.card-title::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: rgb(25, 140, 250);
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+
+.card-title:hover:after {
+    width: 100%;
 }
 
 @media only screen and (max-width: 575px) {
     .card {
         margin: 10px auto;
     }
+}
+
+p.card-text {
+    text-align: left;
+}
+
+.card-group {
+    position: relative;
+}
+
+.card-title-2 {
+    text-align: center;
 }
