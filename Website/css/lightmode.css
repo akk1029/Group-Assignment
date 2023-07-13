@@ -1,0 +1,51 @@
+/* light mode */
+
+.dropdown-divider {
+    background-color: white;
+}
+
+body {
+    background-color: rgb(195, 195, 195);
+    color: black;
+}
+
+a {
+    color: white;
+}
+
+a.nav-link {
+    color: rgb(0, 0, 0);
+}
+
+a.nav-link:hover {
+    color: whitesmoke;
+    background-color: rgb(25, 140, 250);
+}
+
+a.nav-link.active {
+    text-decoration-color: rgb(25, 140, 250) !important;
+}
+
+a.nav-link.active:hover {
+    background-color: rgb(25, 140, 250);
+    color: white;
+}
+
+ul.dropdown-menu {
+    background-color: rgb(50, 50, 50);
+
+}
+
+a.dropdown-item {
+    color: white;
+}
+
+a.dropdown-item:hover {
+    color: black;
+    background-color: white;
+}
+
+input[type=text] {
+    border: 2px solid rgb(25, 140, 250);
+    background-color: rgb(255, 255, 255);
+}

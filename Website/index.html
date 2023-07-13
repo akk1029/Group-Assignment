@@ -13,15 +13,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/lightmode.css" id="theme">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/index.css">
+  <script src="js/darkmode.js"></script>
 </head>
-
 
 <body>
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <img src="images/ByteBay_Logo Transparent v2.0.png" alt="ByteBay_Logo" width="120px">
@@ -59,6 +60,8 @@
         <form class="d-flex" role="search" method="get" action="https://www.google.com/search">
           <input class="form-control me-2" type="text" id="q" name="q" placeholder="Search" aria-label="Search">
         </form>
+        <button onclick=" changeTheme() " id="themeicon"><img src="images/lightmode.png" alt="lightmode"
+            width="60px"></button>
       </div>
     </div>
   </nav>
@@ -75,7 +78,7 @@
   <div>
     <h3><span style="color: rgb(8, 6, 136)">Best</span> <span style="color: rgb(25, 140, 250)">Sellers</span>: </h3>
     <div class="card-group">
-      <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+      <div class="card shadow-sm p-3 mb-5 rounded">
         <img class="card-img-top" src="images/iphone14.png" alt="iPhone14">
         <div class="card-body">
           <h5 class="card-title">iPhone14</h5>
@@ -85,7 +88,7 @@
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
-      <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+      <div class="card shadow-sm p-3 mb-5 rounded">
         <img class="card-img-top"
           src="images/macbook-air-13-chip-m1-8-core-cpu-7-core-gpu-256gb-silver-removebg-preview.png"
           alt="Macbook Air M2">
@@ -100,7 +103,7 @@
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
-      <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+      <div class="card shadow-sm p-3 mb-5 rounded">
         <img class="card-img-top" src="images/ipad11.png" alt="iPad Pro 11 inch">
         <div class="card-body">
           <br>

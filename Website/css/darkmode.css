@@ -1,0 +1,70 @@
+/* darkmode */
+
+.dropdown-divider {
+    background-color: black;
+}
+
+body,
+nav {
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link.active {
+    color: white !important;
+    text-decoration-color: rgb(25, 140, 250);
+}
+
+a.nav-link:hover {
+    color: whitesmoke;
+    background-color: rgb(25, 140, 250);
+}
+
+a.nav-link.active {
+    text-decoration-color: rgb(25, 140, 250);
+}
+
+a.nav-link.active:hover {
+    background-color: rgb(25, 140, 250);
+    color: white;
+}
+
+ul.dropdown-menu {
+    background-color: rgb(50, 50, 50);
+
+}
+
+a.dropdown-item {
+    color: white;
+}
+
+a.dropdown-item:hover {
+    color: black;
+    background-color: white;
+}
+
+input[type=text] {
+    border: 2px solid rgb(25, 140, 250);
+    background-color: rgb(255, 255, 255);
+}
+
+/* cards */
+
+.card {
+    background-color: black;
+    color: white;
+}
+
+/* for about page */
+
+img#apple_logo {
+    filter: invert();
+}
