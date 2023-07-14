@@ -4,9 +4,13 @@
     background-color: black;
 }
 
-body,
-nav {
+body {
     background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 

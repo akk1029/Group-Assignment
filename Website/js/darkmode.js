@@ -7,7 +7,7 @@ function changeTheme() {
     // change the value of src to change the colormode icon
     if (mode.getAttribute('href') == 'css/lightmode.css') {
         mode.setAttribute('href', 'css/darkmode.css');
-        image.setAttribute('src', 'images/darkmode.png');
+        image.setAttribute('src', 'images/darkmode2.0.png');
     } else {
         mode.setAttribute('href', 'css/lightmode.css');
         image.setAttribute('src', 'images/lightmode.png');
