@@ -4,6 +4,10 @@
     background-color: white;
 }
 
+nav.navbar {
+    background-color: white;
+}
+
 body {
     background-color: rgb(195, 195, 195);
     color: black;
